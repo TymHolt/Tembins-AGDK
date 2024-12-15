@@ -75,7 +75,7 @@ public final class Vector3f {
      * @return A vector with the resulting subtracted fields.
      */
     public Vector3f sub(final Vector3f vector) {
-        return add(vector.x, vector.y, vector.z);
+        return sub(vector.x, vector.y, vector.z);
     }
 
     /**
@@ -85,7 +85,7 @@ public final class Vector3f {
      * @return A vector with the resulting subtracted fields.
      */
     public Vector3f sub(final float value) {
-        return add(value, value, value);
+        return sub(value, value, value);
     }
 
     /**

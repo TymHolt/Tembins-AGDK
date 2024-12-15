@@ -67,7 +67,7 @@ public final class Vector2f {
      * @return A vector with the resulting subtracted fields.
      */
     public Vector2f sub(final Vector2f vector) {
-        return add(vector.x, vector.y);
+        return sub(vector.x, vector.y);
     }
 
     /**
@@ -77,7 +77,7 @@ public final class Vector2f {
      * @return A vector with the resulting subtracted fields.
      */
     public Vector2f sub(final float value) {
-        return add(value, value);
+        return sub(value, value);
     }
 
     /**

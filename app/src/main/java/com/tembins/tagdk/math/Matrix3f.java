@@ -74,7 +74,7 @@ public class Matrix3f {
     public Vector3f mul(final Vector3f vector) {
         return new Vector3f(
                 v00 * vector.x + v01 * vector.y + v02 * vector.z,
-                v10 * vector.x + v11 * vector.y + v21 * vector.z,
+                v10 * vector.x + v11 * vector.y + v12 * vector.z,
                 v20 * vector.x + v21 * vector.y + v22 * vector.z);
     }
 
