@@ -3,7 +3,7 @@ package com.tembins.tagdk.math;
 /**
  * Resembles a 4 by 4 matrix and allows mathematical operations with it.
  */
-public class Matrix4f {
+public final class Matrix4f {
 
     public final float v00, v01, v02, v03;
     public final float v10, v11, v12, v13;

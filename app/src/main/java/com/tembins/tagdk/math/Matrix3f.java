@@ -3,7 +3,7 @@ package com.tembins.tagdk.math;
 /**
  * Resembles a 3 by 3 matrix and allows mathematical operations with it.
  */
-public class Matrix3f {
+public final class Matrix3f {
 
     public final float v00, v01, v02;
     public final float v10, v11, v12;
